@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Procesos", "Procesos", "{BAE1D21E-E227-40FE-A912-B7DC74D2E70D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramEaSyApp", "ProgramEaSyApp\ProgramEaSyApp.csproj", "{33BADF60-53A2-4207-A6F9-9CC0479112B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramEaSyApp.Tests", "Procesos\ProgramEaSyApp.Tests\ProgramEaSyApp.Tests.csproj", "{0792C630-EEB3-47F1-B74B-A7782286FC4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33BADF60-53A2-4207-A6F9-9CC0479112B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BADF60-53A2-4207-A6F9-9CC0479112B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BADF60-53A2-4207-A6F9-9CC0479112B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BADF60-53A2-4207-A6F9-9CC0479112B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0792C630-EEB3-47F1-B74B-A7782286FC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0792C630-EEB3-47F1-B74B-A7782286FC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0792C630-EEB3-47F1-B74B-A7782286FC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0792C630-EEB3-47F1-B74B-A7782286FC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{33BADF60-53A2-4207-A6F9-9CC0479112B4} = {BAE1D21E-E227-40FE-A912-B7DC74D2E70D}
+		{0792C630-EEB3-47F1-B74B-A7782286FC4D} = {BAE1D21E-E227-40FE-A912-B7DC74D2E70D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71551EB8-8D3B-418A-9708-AC30C07F03AC}
+	EndGlobalSection
+EndGlobal
